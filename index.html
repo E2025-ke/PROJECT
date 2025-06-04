@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eddy Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <nav class="main-nav">
+    <div class="nav-left">
+        <a href="#how-it-works">About</a>
+        <a href="#experience-card">Gallery</a>
+        <a href="#events">Events</a>
+    </div>
+    
+    <div class="logo">
+        <img src="assets/logo.png" alt="Eddy Restaurant Logo">
+    </div>
+    
+    <div class="nav-right">
+        <a href="#services">Menu</a>
+        <a href="#reservations">Reservations</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+  
+
+
+
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Eddy Restaurant</h1>
+        <p>Where culinary artistry meets unforgettable dining experiences</p>
+        <a href="#reservations" class="hero-btn">Reserve Your Table</a>
+    </div>
+</section>
+
+
+
+
+  <section class="how-it-works">
+    <div class="how-info">
+      <span class="how-label">HOW IT WORKS</span>
+      <h2>We Help You Savor<br>Your Dining Experience</h2>
+      <p>
+        Browse our menu, reserve a table, and<br>
+        start your culinary journey with trusted<br>
+        chefs at Eddy Restaurant.
+      </p>
+      <a href="#reservations" class="how-btn">Book a Table</a>
+    </div>
+    <div class="how-image-card">
+      <img src="assets/photo.png" alt="Chef illustration" />
+    </div>
+  </section>
+  
+  
+ 
+
+
+  <section class="services-section">
+    <span class="services-label">SERVICES</span>
+    <h2 class="services-title">Your Path to<br>Delicious Dining</h2>
+    <p class="services-desc">
+      Discover chef-crafted specialties and reserve your table for a memorable experience.<br>
+      Enjoy expert hospitality and the freshest local ingredients at Eddy Restaurant.
+    </p>
+    <div class="services-cards">
+      <div class="service-card service-card-featured">
+        <h3>Chef’s Specials</h3>
+        <p>
+          Explore our daily signature dishes, inspired by seasonal ingredients and culinary creativity.
+        </p>
+        <a href="#menu" class="service-btn">Learn More</a>
+        <img src="assets/dish.jpg" alt="Chef Specials" class="service-illustration" />
+      </div>
+      <div class="service-card">
+        <h3>Private Dining</h3>
+        <p>
+          Book an exclusive dining room for your next celebration or business event.
+        </p>
+        <a href="#private-dining" class="service-btn">Learn More</a>
+        <img src="assets/d.jpg" alt="Private Dining" class="service-illustration" />
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+  
+<!-- Chef's Table Experience Card -->
+<section class="experience-card">
+  <div class="experience-content">
+    <h2>Chef’s Table Experience</h2>
+    <p>
+      Enjoy a personalized dining journey with our head chef. Savor exclusive dishes crafted just for you, paired with stories behind every flavor.
+    </p>
+    <p>
+      Perfect for food lovers seeking a unique, interactive, and memorable meal at Eddy Restaurant.
+    </p>
+    <button class="learn-more-btn">Reserve Now</button>
+  </div>
+  <div class="experience-illustration">
+    <img src="assets/chef.png" alt="Chef serving a guest at Eddy Restaurant" />
+  </div>
+</section>
+
+
+
+<section class="testimonials-section">
+  <div class="testimonials-left">
+    <span class="testimonials-label">TESTIMONIALS</span>
+    <h2 class="testimonials-title">What Our Diners Are Saying</h2>
+    <p class="testimonials-desc">
+      Positive experiences from guests who have enjoyed meals and moments at Eddy Restaurant.
+    </p>
+    <div class="testimonials-arrows">
+      <button class="arrow-btn" id="arrow-left" aria-label="Previous testimonial">&larr;</button>
+      <button class="arrow-btn filled" id="arrow-right" aria-label="Next testimonial">&rarr;</button>
+    </div>
+  </div>
+  <div class="testimonials-right" id="testimonial-cards">
+    <!-- Testimonial cards will be rendered here by JS -->
+  </div>
+</section>
+
+
+<section class="eddy-partners-section">
+  <div class="partners-card">
+    <span class="partners-label">OUR PARTNERS</span>
+    <img src="assets/partner1.jpg" alt="Fresh Farms Logo" class="partner-logo" />
+    <img src="assets/partner2.jpg" alt="Baker's Best Logo" class="partner-logo" />
+    <img src="assets/partner3.png" alt="Seafood Select Logo" class="partner-logo" />
+    <img src="assets/partner4.png" alt="Green Valley Dairy Logo" class="partner-logo" />
+  </div>
+</section>
+
+
+<section class="restaurant-resources">
+  <div class="resources-header">
+    <span class="resources-label">EXPLORE & ENJOY</span>
+    <h2>Discover Eddy Restaurant’s<br>Signature Experiences</h2>
+    <p>
+      Explore our chef’s specials, reserve your table, or indulge in our exclusive events.<br>
+      Enjoy a memorable dining journey every time you visit.
+    </p>
+  </div>
+  <div class="resources-cards">
+    <div class="resource-card">
+      <h3>Chef’s Specials</h3>
+      <p>
+        Discover our daily specials, crafted with fresh, local ingredients and creative flair.
+      </p>
+      <a href="#menu" class="resource-btn resource-btn-gold">Explore</a>
+    </div>
+    <div class="resource-card">
+      <h3>Reserve a Table</h3>
+      <p>
+        Book your spot online for a seamless dining experience with friends and family.
+      </p>
+      <a href="#reservations" class="resource-btn resource-btn-mint">Book Now</a>
+    </div>
+    <div class="resource-card">
+      <h3>Events & Tastings</h3>
+      <p>
+        Join us for exclusive tasting events, wine pairings, and seasonal celebrations.
+      </p>
+      <a href="#events" class="resource-btn resource-btn-coral">View Events</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="restaurant-community-card">
+  <div class="community-card-content">
+    <span class="community-label">COMMUNITY</span>
+    <h2>Join the Eddy Foodies Club</h2>
+    <p>
+      Connect with fellow food lovers, share your favorite dishes,<br>
+      and enjoy exclusive events in a warm, welcoming space.
+    </p>
+    <a href="#community" class="community-btn">Join The Club</a>
+  </div>
+  <div class="community-card-image">
+    <img src="assets/logo.png" alt="Eddy Foodies Club Illustration" />
+  </div>
+</section>
+
+
+<section class="restaurant-faq">
+  <div class="faq-left">
+    <span class="faq-help">NEED HELP?</span>
+    <h2>Frequently Asked Questions</h2>
+    <p>
+      Find answers to common questions about our menu, reservations, dining experience, and more at Eddy Restaurant.
+    </p>
+    <img src="assets/catering.jpg" alt="Eddy Restaurant FAQ Illustration" class="faq-illustration">
+  </div>
+  <div class="faq-right" id="faq-list">
+    <!-- FAQ items will be rendered here by JS -->
+  </div>
+</section>
+
+
+
+
+
+<section class="contact-section">
+  <div class="contact-container">
+   <div class="contact-info">
+    <h2 class="contact-title">Contact Details:</h2>
+    <p class="contact-item">
+     Email: <a href="mailto:support@eddyrestaurant.com">support@eddyrestaurant.com</a>
+    </p>
+    <p class="contact-item">Phone: +254797602051</p>
+    <p class="contact-item">Address: Nairobi, Kenya</p>
+  
+    <div class="social-links">
+      <a href="#" aria-label="LinkedIn">
+        <img src="assets/linkedin.png" alt="LinkedIn" class="social-icon">
+      </a>
+      <a href="#" aria-label="Facebook">
+        <img src="assets/facebook.png" alt="Facebook" class="social-icon">
+      </a>
+      <a href="#" aria-label="Instagram">
+        <img src="assets/instagram.png" alt="Instagram" class="social-icon">
+      </a>
+      <a href="#" aria-label="WhatsApp">
+        <img src="assets/whatsapp.jpg" alt="WhatsApp" class="social-icon">
+      </a>
+    </div>
+    
+
+    <p class="response-time">We typically respond within 12 hours.</p>
+   </div>
+   <div class="contact-form">
+    <h2 class="form-title">Send Us a Message</h2>
+    <form id="contactForm">
+     <input type="email" id="email" name="email" placeholder="Email" required aria-label="Email">
+     <textarea id="message" name="message" placeholder="Message" rows="4" required aria-label="Message"></textarea>
+     <button type="submit" class="send-button">Send Message</button>
+    </form>
+    <div id="formMessage" class="form-message"></div>
+   </div>
+  </div>
+ </section>
+ 
+
+
+
+
+
+ <section class="eddy-footer">
+  <div class="footer-card info-card">
+    <h2 class="footer-logo">Eddy Restaurant</h2>
+    <div class="footer-links">
+      <div>
+        <a href="#">Menu</a><br>
+        <a href="#">Reservations</a><br>
+        <a href="#">Events</a><br>
+        <a href="#">Gallery</a><br>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <a href="#">Instagram</a><br>
+        <a href="#">Facebook</a><br>
+        <a href="#">TripAdvisor</a><br>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div>
+        <a href="#">Terms of Use</a><br>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      © 2025 Eddy Restaurant. All Rights Reserved.
+    </div>
+  </div>
+  <div class="footer-card promo-card">
+    <div class="promo-content">
+      <h3>
+        Discover<br>
+        Flavor, Ambience,<br>
+        and Delight.
+      </h3>
+      <button class="promo-btn">Book a Table</button>
+    </div>
+    <div class="promo-graphic">
+      <!-- Use an SVG or PNG for a restaurant-themed graphic or keep it simple -->
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Restaurant themed graphic" />
+    </div>
+  </div>
+</section>
+
+
+
+
+ 
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
